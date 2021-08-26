@@ -4,7 +4,7 @@
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                   http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="SN\Bundle\NotificationsBundle\Entity\Notification" table="sn_notification">
+    <mapped-superclass name="SN\Bundle\NotificationsBundle\Entity\Notification">
         <id name="id" type="integer" column="id">
             <generator strategy="AUTO"/>
         </id>
@@ -18,5 +18,5 @@
         <indexes>
             <index name="notifiable_idx" columns="notifiable_id,notifiable_type" />
         </indexes>
-    </entity>
+    </mapped-superclass>
 </doctrine-mapping>

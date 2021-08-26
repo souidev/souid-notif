@@ -1,12 +1,12 @@
 {
-    "name": "snebes/notifications-bundle",
-    "description": "A snebes/notifications bundle integration for Symfony projects",
+    "name": "souidev/souid-notif",
+    "description": "A souidev/souid-notif bundle integration for Symfony projects",
     "type": "symfony-bundle",
     "keywords": ["notifications", "email", "sms", "doctrine", "symfony"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Steve Nebes",
+            "name": "Souid",
             "email": "steve@nebes.net"
         }
     ],
