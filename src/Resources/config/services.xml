@@ -15,7 +15,7 @@
 
         <service id="sn_notifications.channel.database_channel" class="SN\Notifications\Channel\DatabaseChannel" public="false">
             <argument type="service" id="doctrine.orm.entity_manager" on-invalid="null" />
-            <argument>SN\Bundle\NotificationsBundle\Entity\Notification</argument>
+            <argument>App\Entity\Notification</argument>
             <tag name="kernel.event_subscriber" />
         </service>
 
